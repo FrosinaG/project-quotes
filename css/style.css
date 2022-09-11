@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0, 4);
+    font-size: 18px;
+    color: rgb(3, 3, 37);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 20% auto;
+    padding: 20px;
+    border: 1px solid rgb(166, 160, 160);
+    width: 80%;
+    /* min-height: 800px; */
+    border: double;
+    border-color: rgb(3, 3, 37);
+    border-radius: 5px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#mybutton {
+    background: rgb(166, 160, 160);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    color: rgb(3, 3, 37);
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.first {
+    background-color: #888;
+    padding: 40px;
+    width: 80%;
+    text-align: center;
+    margin: 40px auto;
+    border-radius: 5px;
+}
+
+.secont {
+    background-color: #aaa;
+    padding: 40px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    /* border: double;
+    border-color: rgb(3, 3, 37); */
+    border-radius: 5px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.hero {
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    color: rgb(3, 3, 37);
+}
+
+h3 {
+    font-size: 25px;
+}
+
+#qu {
+    margin: 20px auto;
+    text-align: center;
+    width: 70%;
+    padding: 15px;
+}
+
+.list {
+    padding: 15px;
+    background-color: rgb(207, 195, 195);
+    margin: 10px;
+    color: rgb(3, 3, 37);
+}
+
+strong {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(3, 3, 37);
+}
+
+#get {
+    padding: 10px;
+    background: white;
+    color: rgb(3, 3, 37);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#demo1 {
+    display: none;
+}
